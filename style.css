@@ -7,9 +7,16 @@
 p{
 
 }
+
+ul{
+    text-align: left;
+    margin-left: 50px;
+    
+}
 .product{
     border: 2px solid black;
     margin: 10px;
+    font-family: Roboto, sans-serif;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -48,42 +55,3 @@ img{
             background-color: rgb(255, 119, 0);
             color: black;
         }
-
-/* The Modal (background) */
-.modal {
-    position: fixed; /* Stay in place */
-    display: none; /* Hidden by default */
-    padding-top: 100px; /* Location of the box */
-    z-index: 1; /* Sit on top */
-    top: 0;
-    left: 0;
-    height: 100%; /* Full height */
-    width: 100%; /* Full width */
-    background-color: rgb(0,0,0); /* Fallback color */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    margin: auto;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 20px;
-    width: 80%;
-}
-
-/* The Close Button */
-.close {
-    float: right;
-    color: #aaaaaa;
-    font-weight: bold;
-    font-size: 28px;
-}
-
-.close:hover,
-.close:focus {
-    text-decoration: none;
-    color: #000;
-    cursor: pointer;
-}
